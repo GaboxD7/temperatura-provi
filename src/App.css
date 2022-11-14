@@ -1,0 +1,43 @@
+
+.App {
+  background-image: url('../public/provi-bg.svg');
+  height: 616px;
+  width: 440px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container-logo {
+  height: 150px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.logo-provi {
+  width: 200px;
+}
+h1 {
+  color: #854cb0;
+  text-shadow: 2px 2px 4px black;
+}
+.container-temp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.container-grados {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  border: #bed600 solid 10px;
+  box-shadow: 1px 0.5px 15px black;
+  padding: 50px 10px;
+  border-radius: 50%;
+  color: #854cb0;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px black;
+}
